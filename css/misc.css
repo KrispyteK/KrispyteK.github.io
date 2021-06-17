@@ -4,11 +4,12 @@ html,body,main {
     height: 100%;
 
     font-size: 20px;
-    text-shadow: 3px 3px 4px #000000;
+    color: black;
+    text-shadow: 1px 1px 2px #00000079;
 }
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -26,17 +27,17 @@ a {
 }   
 
 .bg {
-    background-image: url("../images/bhanu.jpg");
+    background-image: url("../images/JelloAlbumDown.png");
     background-size: cover;
     display: block;
-    filter: contrast(0.7) blur(5px) brightness(0.6);
-    -webkit-filter: contrast(0.7) blur(5px) brightness(0.6);
+    filter: contrast(0.7) blur(24px) brightness(0.7);
+    -webkit-filter: contrast(0.7) blur(5px) brightness(0.7);
     height: 100%;
     left: 0;
     position: fixed;
     right: 0;
     z-index: -1;
-    transform: scale(1.1); 
+    transform: scale(1); 
 }
 
 .img-rounded {
